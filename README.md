@@ -19,7 +19,6 @@ The project meets the following requirements:
 - **Output Verification:** Checks if all matches and non-matches are displayed correctly and verifies that all models perform as expected.
 
 ## Results
-
 - **Model Performance:** All three models (AlexNet, ResNet, and VGG) performed as expected.
 
 ## Additional Questions Answered
@@ -36,15 +35,9 @@ The project meets the following requirements:
 ### 4. Based on the above answers, which model architecture performed the best?
 **Answer:** Since all three models performed accurately, VGG is selected as the best due to its consistent performance in correctly classifying all images.
 
-## How to Use
+## Feedback: 
+<img width="905" alt="Screenshot 2024-08-17 at 14 58 17" src="https://github.com/user-attachments/assets/dbee669c-f80a-493a-b171-c2dc50f6bfa0">
+<img width="882" alt="Screenshot 2024-08-17 at 14 59 08" src="https://github.com/user-attachments/assets/90b9427f-16ec-4a8f-8d2d-dc4d9c829d02">
+<img width="875" alt="Screenshot 2024-08-17 at 14 59 24" src="https://github.com/user-attachments/assets/f6bd3841-eb5f-486b-bee7-ddd03a305bd9">
 
-### Install Dependencies
-Ensure you have all required Python packages installed. This may include libraries such as `numpy`, `scikit-learn`, and specific deep learning frameworks like TensorFlow or PyTorch.
 
-### Run the Program
-Execute the program with command line arguments to specify input directories and model choices.
-
-### Example Command
-
-```bash
-python classify_images.py --dir /path/to/images --arch vgg --dogfile dognames.txt
